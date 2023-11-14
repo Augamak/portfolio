@@ -14,8 +14,77 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 60px;
 }
 
 .header-svg-text {
-  background-color: red;
+  width: 658px;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.section-home-feature {
+  width: 1920px;
+  height: 530px;
+  display: flex;
+  justify-content: space-between;
+}
+.section-home-feature-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 133px 15px 133px 204px;
+  padding: 70px;
+}
+.section-home-feature-text-featured {
+  color: #888;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.section-home-feature-text-featured-loncaro {
+  color: #000;
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+}
+.section-home-feature-text-featured-loncaro-text {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.image {
+  padding: 30px 134px 0 0;
+}
+
+.home-tiles {
+  width: 1200px;
+  height: 4437px;
+  margin: 57px 360px 15px 360px;
+}
+.home-tiles-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
 }/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,48 @@
+.section-home-feature {
+    width: 1920px;
+    height: 530px;
+    display: flex;
+    justify-content: space-between;
+
+    &-text {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin: 133px 15px 133px 204px;
+        padding: 70px;
+
+        &-featured {
+            color: #888;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+            text-transform: uppercase;
+
+            &-loncaro {
+                color: #000;
+                font-family: Playfair Display;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 42px;
+
+                &-text {
+                    color: #000;
+                    font-family: Montserrat;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+}
+
+.image {
+    padding: 30px 134px 0 0;
+}
+
+
